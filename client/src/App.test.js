@@ -12,7 +12,17 @@ import PlayesCards from './components/PlayersCard';
 //   ReactDOM.unmountComponentAtNode(div);
 // });
 
-test('containes Name Megan Rapino', async () => {
+it('containes Name Megan Rapino', async () => {
   const{findByText} = rtl.render(<App />);
   findByText(/Megan Rapino/i);
 });
+
+it('header displayed', async () => {
+  const{findByText} = rtl.render(<App />);
+  findByText(/Women's WorldCup/i);
+})
+
+test('toggle button displayed', async () => {
+  const{findByText} = rtl.render(<App />)
+  findByText(/Go Dark/i)
+})

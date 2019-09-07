@@ -1,4 +1,9 @@
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+    -   To access the built-in methods React provides in Class components.
 - [ ] Name three lifecycle methods and their purposes.
+    - Render- handles rendering inside of the component.
+    - ComponentDidMount- Updates the DOM as the state changes.
+    - ComponentWillUmount- Called to clean up when a lifelicyle is about to finish.
 - [ ] What is the purpose of a custom hook?
+    - To apply none-visiual behavior and stateful logic in components.
 - [ ] Why is it important to test our apps?
