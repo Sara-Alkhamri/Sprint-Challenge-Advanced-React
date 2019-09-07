@@ -22,7 +22,7 @@ it('header displayed', async () => {
   findByText(/Women's WorldCup/i);
 })
 
-test('toggle button displayed', async () => {
-  const{findByText} = rtl.render(<App />)
-  findByText(/Go Dark/i)
-})
+// test('toggle button displayed', async () => {
+//   const{findByText} = rtl.render(<App />)
+//   findByText(/Go Dark/i)
+// })

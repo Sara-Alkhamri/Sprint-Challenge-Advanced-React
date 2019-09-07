@@ -16,10 +16,10 @@ const Display = (props) => {
             <h1>Women's WorldCup Team</h1>
             <div className="dark-mode">
             <div className="dark-mode__toggle">
-            <button>Go Dark
+            <div
             onClick={toggleMode}
             className={darkMode ? 'toggle toggled' : 'toggle'}
-            </button>
+           />
             </div>
             <h3>{props.data.map(player => <PlayersCard data={player} />)}</h3>
             </div>
